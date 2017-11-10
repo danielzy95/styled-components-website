@@ -6,6 +6,8 @@ script:
   - node --version
   - yarn --version
   - yarn run test
+  - yarn run lint
+  - yarn run integration
 notifications:
   email:
     on_failure: change
